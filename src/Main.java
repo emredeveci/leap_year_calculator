@@ -13,7 +13,7 @@ public class Main {
         year = scanner.nextInt();
 
         //logic for leap year
-        if (((year % 4 == 00) && (year % 100 != 0)) || (year % 400 == 0)) {
+        if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
             System.out.print(year + " is a leap year");
         } else {
             System.out.print(year + "is not a leap year");
